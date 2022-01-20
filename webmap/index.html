@@ -4,14 +4,100 @@
 <meta charset="utf-8">
 <title>SM2T Webmap</title>
 <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 <link href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet">
 <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
 <style>
 body { margin: 0; padding: 0; }
 #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+.legend {
+    background: white;
+    line-height: 18px;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+.div-wrapper {
+    position: relative;
+    height: 700px;
+    width: 300px;
+}
+
+.div-wrapper img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-left: 10px;
+    height: 30px;
+    width: 150px;
+}
 </style>
 </head>
 <body>
+
+    <div class="modal fade about-info" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <h1 style="padding: 20px;" id="missing-osm-maps----user-tutorial">SocialMedia2Traffic: Derivation of traffic information from social media data</h1>
+                <hr>
+                <h3 style="padding: 20px;" id="introduction">Introduction</h3>
+                <p style="padding: 20px;">Using "Geo-Tagged" Social Media / Human generated data as a proxy (primary) to generate Time Dependent Global Traffic Map (a RESTful service). Thus, the time dependent global traffic map will change based on the given time-bin (eg. Monday 19:00-21:00).</p>
+                <h3 style="padding: 20px;" id="info-contact">Info &amp; Contact</h3>
+                <ul>
+                <li>Project Lead: <a href="https://heigit.org/heigit-team" target="_blank">Dr. Alexander Zipf</a></li>
+                <li>Project Manager: <a href="https://heigit.org/heigit-team" target="_blank">Dr. Stefan Gumbrich</a></li>
+                <li>Scientific Researcher: <a href="https://heigit.org/heigit-team" target="_blank">Dr. Sven Lautenbach</a></li>
+                <li>Scientific Researcher and Developer: <a href="https://heigit.org/heigit-team" target="_blank">Dr. Mohammed Zia</a></li>
+                <li>Scientific Researcher and Developer: <a href="https://www.geog.uni-heidelberg.de/gis/fuerle.html" target="_blank">Johannes Fürle</a> (PhD candidate)</li>
+                <li>Scientific Researcher and Developer: <a href="https://www.geog.uni-heidelberg.de/gis/ludwig.html" target="_blank">Christina Ludwig</a> (PhD candidate)</li>
+                </ul>
+ 
+                <h4 style="padding: 20px;" id="step1-what-is-already-in-openstreetmap">Project Links</h4>
+                <ul>
+                    <li><a href="https://confluence.heigit.org/display/SOC/SocialMedia2Traffic+Home" target="_blank">Confluence</a></li>
+                    <li><a href="https://github.com/GIScience/SocialMedia2Traffic-modeller" target="_blank">Data Science and ML scripts</a></li>
+                    <li><a href="https://github.com/GIScience/socialmedia2traffic-webmap-server" target="_blank">SM2T Server</a></li>
+                    
+                    </ul>
+
+                <hr>
+
+                <h3 style="padding: 20px;" id="reference">Funding</h3>
+                <p style="padding: 20px;">This research was funded by the German Federal Ministry for Digital and Transport (BMDV) in the context of the research initiative <a href="https://www.bmvi.de/EN/Topics/Digital-Matters/mFund/mFund.html" target="_blank">mFUND</a> (grant number 19F2162A and 19F2162B).</p>
+
+                <hr>
+
+                <h3 style="padding: 20px;" id="reference">Reference</h3>
+                <p style="padding: 20px;">Coming soon...</p>
+
+                <hr>
+
+                <h3 style="padding: 20px;" id="reference">Note</h3>
+                <p style="padding: 20px;">Website might be a bit slow because of having only one instance running.</p>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <div id="about" style="z-index:1000;position:relative;float:right;padding-top:120px"><button button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target=".about-info">About</button></div>
+
+    <div id="about" style="z-index:1000;position:absolute;float:right;padding:10px;color:Green"><h4>SocialMedia2Traffic: Derivation of traffic information from social media data</h4></div>
+
+    <div id="legend" style="z-index:1000;position:absolute;float:right;padding-top:200px;padding-left:10px"><img style="height:200px;width:50px" src="images/legend.png"/></div>
+
+    <div class="div-wrapper" style="z-index:1000">
+        <img src="images/heigitlogo.png"/>
+    </div>
+
 <div id="map"></div>
 <script>
 	mapboxgl.accessToken = 'pk.eyJ1IjoiemlhLW0iLCJhIjoiQjM5aVpfTSJ9.s_U7YxQCK-Zq5SaJemH5bA';
