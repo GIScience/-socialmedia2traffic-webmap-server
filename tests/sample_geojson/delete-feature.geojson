@@ -1,0 +1,411 @@
+{
+  "attribution" : {
+    "url" : "https://ohsome.org/copyrights",
+    "text" : "© OpenStreetMap contributors"
+  },
+  "apiVersion" : "1.0.0",
+  "type" : "FeatureCollection",
+  "features" : [{
+    "type" : "Feature",
+    "geometry" : null,
+    "properties" : {
+      "@osmId" : "way/25208382",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:housenumber" : "583",
+      "addr:postcode" : "69120",
+      "addr:street" : "Im Neuenheimer Feld",
+      "amenity" : "hospital",
+      "building" : "yes",
+      "emergency" : "no",
+      "name" : "Institut für Klinische Transfusionsmedizin und Zelltherapie, Blutspendezentrale Heidelberg INF 583",
+      "short_name" : "IKTZ"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : null,
+    "properties" : {
+      "@osmId" : "way/25771232",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:housenumber" : "450",
+      "addr:postcode" : "69120",
+      "addr:street" : "Im Neuenheimer Feld",
+      "amenity" : "hospital",
+      "building" : "hospital",
+      "elevator" : "yes",
+      "name" : "Heidelberger Ionenstrahl-Therapiezentrum",
+      "note" : "Die südöstliche Gebäudebegrenzung folgt dem 1. UG.",
+      "short_name" : "HIT",
+      "wheelchair" : "yes",
+      "wheelchair:toilets" : "yes"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : null,
+    "properties" : {
+      "@osmId" : "way/25813173",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:housenumber" : "131",
+      "addr:postcode" : "69120",
+      "addr:street" : "Im Neuenheimer Feld",
+      "alt_name" : "Schmerzzentrum",
+      "amenity" : "hospital",
+      "building" : "yes",
+      "building:levels" : "11",
+      "description" : "Behindertenparkplätze vorhanden",
+      "elevator" : "yes",
+      "name" : "Zentrum für Schmerztherapie und Palliativmedizin INF 131",
+      "phone" : "06221 56-6254",
+      "website" : "http://www.klinikum.uni-heidelberg.de/Zentrum-fuer-Schmerztherapie-und-Palliativmedizin.503.0.html",
+      "wheelchair" : "yes",
+      "wheelchair:toilets" : "yes"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : null,
+    "properties" : {
+      "@osmId" : "way/26006151",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:housenumber" : "162",
+      "addr:postcode" : "69120",
+      "addr:street" : "Im Neuenheimer Feld",
+      "amenity" : "hospital",
+      "building" : "yes",
+      "description" : "Behindertenparkplätze vorhanden",
+      "elevator" : "yes",
+      "name" : "Nierenzentrum Heidelberg",
+      "short_name" : "NZH",
+      "website" : "https://www.nierenzentrum-heidelberg.com",
+      "wheelchair" : "yes",
+      "wheelchair:toilets" : "yes"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : null,
+    "properties" : {
+      "@osmId" : "way/27096228",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:housenumber" : "110-112",
+      "addr:postcode" : "69120",
+      "addr:street" : "Im Neuenheimer Feld",
+      "amenity" : "hospital",
+      "building" : "hospital",
+      "elevator" : "yes",
+      "name" : "Chirurgische Klinik",
+      "name:zh" : "海德堡大学医院外科",
+      "wheelchair" : "yes",
+      "wheelchair:toilets" : "yes"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : null,
+    "properties" : {
+      "@osmId" : "way/35534679",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:housenumber" : "460",
+      "addr:postcode" : "69120",
+      "addr:street" : "Im Neuenheimer Feld",
+      "amenity" : "hospital",
+      "building" : "hospital",
+      "elevator" : "yes",
+      "name" : "Nationales Centrum für Tumorerkrankungen",
+      "short_name" : "NCT",
+      "wheelchair" : "yes",
+      "wheelchair:toilets" : "yes"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : null,
+    "properties" : {
+      "@osmId" : "way/35692885",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:housenumber" : "1-5",
+      "addr:postcode" : "69117",
+      "addr:street" : "Untere Neckarstraße",
+      "amenity" : "hospital",
+      "building" : "hospital",
+      "building:roof" : "hipped",
+      "name" : "Krankenhaus St. Vincentius",
+      "website" : "http://www.vincentius-hd.de",
+      "wheelchair" : "yes"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : null,
+    "properties" : {
+      "@osmId" : "way/35842577",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:housenumber" : "20",
+      "addr:postcode" : "69115",
+      "addr:street" : "Bergheimer Straße",
+      "amenity" : "hospital",
+      "building" : "hospital",
+      "name" : "Institut für Medizinische Psychologie, Psychologische Alternsforschung, Gerontologie",
+      "note" : "Universitätsklinikum Heidelberg",
+      "phone" : "+49 6221 568151",
+      "website" : "http://www.klinikum.uni-heidelberg.de/ZPM-Startseite.106894.0.html",
+      "wheelchair" : "limited"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : null,
+    "properties" : {
+      "@osmId" : "way/49501406",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:housenumber" : "8",
+      "addr:postcode" : "69115",
+      "addr:street" : "Blumenstraße",
+      "amenity" : "hospital",
+      "building" : "hospital",
+      "name" : "Klinik für Kinder- und Jugendpsychiatrie - Tageszentrum für Jugendliche",
+      "phone" : "06221 56-4466",
+      "source" : "Universitätsklnikum Heidelberg",
+      "website" : "https://www.klinikum.uni-heidelberg.de/Klinik-fuer-Kinder-und-Jugendpsychiatrie.2258.0.html"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : null,
+    "properties" : {
+      "@osmId" : "way/91097339",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:country" : "DE",
+      "addr:housenumber" : "33",
+      "addr:postcode" : "69121",
+      "addr:street" : "Zeppelinstraße",
+      "amenity" : "hospital",
+      "building" : "hospital",
+      "building:roof:colour" : "b6ae9f",
+      "contact:phone" : "+49 6221 483-0",
+      "lastcheck" : "2016-03-05",
+      "name" : "Salem",
+      "website" : "http://www.krankenhaus-salem.de",
+      "wheelchair" : "yes"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : null,
+    "properties" : {
+      "@osmId" : "way/96690377",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:country" : "DE",
+      "addr:housenumber" : "5/1",
+      "addr:postcode" : "69115",
+      "addr:street" : "Luisenstraße",
+      "amenity" : "hospital",
+      "building" : "hospital",
+      "name" : "Unfallchirurgie - Atos",
+      "source" : "Maps4BW, LGL, www.lgl-bw.de",
+      "website" : "http://www.atos.de/klinik/",
+      "wheelchair" : "no"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : null,
+    "properties" : {
+      "@osmId" : "way/140128817",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:country" : "DE",
+      "addr:housenumber" : "54",
+      "addr:postcode" : "69115",
+      "addr:street" : "Bergheimer Straße",
+      "amenity" : "hospital",
+      "building" : "university",
+      "building:roof" : "pitched",
+      "building:roof:colour" : "eecfaf",
+      "name" : "Institut für Psychosomatische Kooperationsforschung und Familientherapie, Personalwohngebäude",
+      "phone" : "06221 56-4701",
+      "source" : "Universitätsklinikum Heidelberg",
+      "website" : "http://www.klinikum.uni-heidelberg.de/ZPM-Startseite.106894.0.html"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : null,
+    "properties" : {
+      "@osmId" : "way/141216666",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:housenumber" : "324",
+      "addr:postcode" : "69120",
+      "addr:street" : "Im Neuenheimer Feld",
+      "amenity" : "hospital",
+      "building" : "yes",
+      "building:obm" : "80",
+      "description" : "Behindertengerecht",
+      "elevator" : "yes",
+      "name" : "Tropenmedizinische Ambulanz / Institut für Public Health / Departement für Infektologie",
+      "phone" : "06221 56-22999",
+      "source" : "Universitätsklinikum Heidelberg",
+      "website" : "http://www.klinikum.uni-heidelberg.de/Sektion-Klinische-Tropenmedizin.5489.0.html",
+      "wheelchair" : "yes",
+      "wheelchair:toilets" : "yes"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : null,
+    "properties" : {
+      "@osmId" : "way/209189456",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:country" : "DE",
+      "addr:housenumber" : "6",
+      "addr:postcode" : "69115",
+      "addr:street" : "Voßstraße",
+      "amenity" : "hospital",
+      "building" : "yes",
+      "name" : "Ethianum"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : null,
+    "properties" : {
+      "@osmId" : "way/225545052",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:housenumber" : "440",
+      "addr:postcode" : "69120",
+      "addr:street" : "Im Neuenheimer Feld",
+      "amenity" : "hospital",
+      "building" : "hospital",
+      "name" : "Frauen- und Hautklinik",
+      "phone" : "+49 6221 568589",
+      "source" : "Universitätsklinkum Heidelberg",
+      "website" : "http://www.klinikum.uni-heidelberg.de/Hautklinik.113977.0.html",
+      "wheelchair" : "yes"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : null,
+    "properties" : {
+      "@osmId" : "way/225545436",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:housenumber" : "440",
+      "addr:postcode" : "69120",
+      "addr:street" : "Im Neuenheimer Feld",
+      "amenity" : "hospital",
+      "building" : "yes",
+      "name" : "Frauenklinik und Hautklinik",
+      "phone" : "06221 56-5087",
+      "source" : "Universitätsklinikum Heidelberg",
+      "website" : "http://www.klinikum.uni-heidelberg.de/Institut-fuer-Humangenetik.5035.0.html",
+      "wheelchair" : "yes"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : null,
+    "properties" : {
+      "@osmId" : "way/225550326",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:housenumber" : "440",
+      "addr:postcode" : "69120",
+      "addr:street" : "Im Neuenheimer Feld",
+      "amenity" : "hospital",
+      "building" : "yes",
+      "emergency" : "yes",
+      "name" : "Frauenklinik",
+      "phone" : "06221 56-7856",
+      "source" : "Universitätsklinikum Heidelberg",
+      "website" : "http://www.klinikum.uni-heidelberg.de/Universitaets-Frauenklinik.331.0.html",
+      "wheelchair" : "yes"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : null,
+    "properties" : {
+      "@osmId" : "way/259039249",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "amenity" : "hospital",
+      "name" : "St. Josefskrankenhaus",
+      "website" : "http://www.st.josefskrankenhaus.de",
+      "wheelchair" : "yes"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : null,
+    "properties" : {
+      "@osmId" : "way/342036341",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:housenumber" : "410",
+      "addr:postcode" : "69120",
+      "addr:street" : "Im Neuenheimer Feld",
+      "alt_name" : "Ludolf-Krehl-Klinik",
+      "amenity" : "hospital",
+      "description" : "behindertengerecht",
+      "elevator" : "yes",
+      "name" : "Medizinische Klinik",
+      "wheelchair" : "yes",
+      "wheelchair:toilets" : "yes"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : null,
+    "properties" : {
+      "@osmId" : "way/342045912",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:country" : "DE",
+      "addr:housenumber" : "5-7",
+      "addr:postcode" : "69121",
+      "addr:street" : "Furtwänglerstraße",
+      "amenity" : "hospital",
+      "contact:phone" : "+49 6221 4880",
+      "emergency" : "no",
+      "name" : "Sankt Elisabeth",
+      "website" : "http://www.sankt-elisabeth.de",
+      "wheelchair" : "limited"
+    }
+  }]
+}

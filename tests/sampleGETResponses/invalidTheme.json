@@ -1,0 +1,4 @@
+{
+    "status": 400,
+    "send": "Error: Check params - Input value is sendaiHealthv0.01, but valid values are sendaiHealthv0.0,sendaiRoadv0.0,sendaiWaterTreatmentPlantv0.0,sendaiPowerGenerationPlantv0.0,sendaiCulturalHeritageSitev0.0,sendaiBridgev0.0,sendaiEducationv0.0,sendaiRailwayv0.0,sendaiAirportv0.0,sendaiMassGatheringSites0.0"
+}

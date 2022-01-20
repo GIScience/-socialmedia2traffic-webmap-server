@@ -1,0 +1,4 @@
+{
+    "status": 400,
+    "send": "Error: Forbidden Submit params - Check for zoom level - Permissible value for Guest Usage is >= 5"
+}

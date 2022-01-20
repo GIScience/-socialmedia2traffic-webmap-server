@@ -1,0 +1,18 @@
+{
+    "status": 400,
+    "statusText": "Bad params :( Checkout https://gitlab.com/jrc_osm/edh_server/issues/12 documentation to create valid query.",
+    "errors": [
+        {
+            "field": [
+                "long"
+            ],
+            "location": "query",
+            "messages": [
+                "\"long\" must be less than or equal to 180"
+            ],
+            "types": [
+                "number.max"
+            ]
+        }
+    ]
+}

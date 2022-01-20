@@ -1,0 +1,13 @@
+const lineReader = require('line-reader');
+
+var theme = 'sendaiAirportv0.0'
+
+lineReader.eachLine('/Users/zzz/Desktop/query_coll.json', function(line) {
+    
+    var query = JSON.parse(line)
+
+    if (query.numOfFeaturesProcessed != undefined && query.themeNameVersion == theme) {
+        console.log(line);
+    }
+
+});

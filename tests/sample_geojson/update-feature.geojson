@@ -1,0 +1,2087 @@
+{
+  "attribution" : {
+    "url" : "https://ohsome.org/copyrights",
+    "text" : "© OpenStreetMap contributors"
+  },
+  "apiVersion" : "1.0.0",
+  "type" : "FeatureCollection",
+  "features" : [{
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.6746582,
+            49.4225113
+          ],
+          [
+            18.6747152,
+            49.4224313
+          ],
+          [
+            8.674785,
+            49.4223332
+          ],
+          [
+            8.6752237,
+            49.4224702
+          ],
+          [
+            8.6752837,
+            49.422488799999996
+          ],
+          [
+            8.6753096,
+            49.4224532
+          ],
+          [
+            8.6755806,
+            49.4225375
+          ],
+          [
+            8.675448,
+            49.422708199999995
+          ],
+          [
+            8.675079,
+            49.422595699999995
+          ],
+          [
+            8.6750473,
+            49.4226369
+          ],
+          [
+            8.6746582,
+            49.4225113
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/25208382",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:housenumber" : "583",
+      "addr:postcode" : "69120",
+      "addr:street" : "Im Neuenheimer Feld",
+      "amenity" : "hospital",
+      "building" : "yes",
+      "emergency" : "no",
+      "name" : "Institut für Klinische Transfusionsmedizin und Zelltherapie, Blutspendezentrale Heidelberg INF 583",
+      "short_name" : "IKTZ"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.6646134,
+            49.4178461
+          ],
+          [
+            18.664614499999999,
+            49.4174636
+          ],
+          [
+            8.6640151,
+            49.417462799999996
+          ],
+          [
+            8.6640148,
+            49.4175687
+          ],
+          [
+            8.6637516,
+            49.4175684
+          ],
+          [
+            8.6637506,
+            49.4179062
+          ],
+          [
+            8.663653499999999,
+            49.417905999999995
+          ],
+          [
+            8.6636531,
+            49.4180254
+          ],
+          [
+            8.6645746,
+            49.4180266
+          ],
+          [
+            8.6645749,
+            49.4179092
+          ],
+          [
+            8.6641777,
+            49.4179088
+          ],
+          [
+            8.6641779,
+            49.4178456
+          ],
+          [
+            8.6646134,
+            49.4178461
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/25771232",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:housenumber" : "450",
+      "addr:postcode" : "69120",
+      "addr:street" : "Im Neuenheimer Feld",
+      "amenity" : "hospital",
+      "building" : "hospital",
+      "elevator" : "yes",
+      "name" : "Heidelberger Ionenstrahl-Therapiezentrum",
+      "note" : "Die südöstliche Gebäudebegrenzung folgt dem 1. UG.",
+      "short_name" : "HIT",
+      "wheelchair" : "yes",
+      "wheelchair:toilets" : "yes"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.6695174,
+            49.4132245
+          ],
+          [
+            18.669601499999999,
+            49.413224899999996
+          ],
+          [
+            8.6696739,
+            49.4132245
+          ],
+          [
+            8.6696746,
+            49.413207799999995
+          ],
+          [
+            8.6697937,
+            49.4132093
+          ],
+          [
+            8.6697951,
+            49.412965
+          ],
+          [
+            8.6697008,
+            49.4129654
+          ],
+          [
+            8.6697016,
+            49.4129309
+          ],
+          [
+            8.669510299999999,
+            49.4129309
+          ],
+          [
+            8.6695117,
+            49.412956699999995
+          ],
+          [
+            8.6694146,
+            49.4129558
+          ],
+          [
+            8.6694132,
+            49.413196799999994
+          ],
+          [
+            8.669517299999999,
+            49.413196799999994
+          ],
+          [
+            8.6695174,
+            49.4132245
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/25813173",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:housenumber" : "131",
+      "addr:postcode" : "69120",
+      "addr:street" : "Im Neuenheimer Feld",
+      "alt_name" : "Schmerzzentrum",
+      "amenity" : "hospital",
+      "building" : "yes",
+      "building:levels" : "11",
+      "description" : "Behindertenparkplätze vorhanden",
+      "elevator" : "yes",
+      "name" : "Zentrum für Schmerztherapie und Palliativmedizin INF 131",
+      "phone" : "06221 56-6254",
+      "website" : "http://www.klinikum.uni-heidelberg.de/Zentrum-fuer-Schmerztherapie-und-Palliativmedizin.503.0.html",
+      "wheelchair" : "yes",
+      "wheelchair:toilets" : "yes"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.665849999999999,
+            49.4144764
+          ],
+          [
+            18.6661431,
+            49.4144077
+          ],
+          [
+            8.6660626,
+            49.4142625
+          ],
+          [
+            8.6661015,
+            49.414254
+          ],
+          [
+            8.6659237,
+            49.413916699999994
+          ],
+          [
+            8.6655394,
+            49.413998899999996
+          ],
+          [
+            8.665711199999999,
+            49.4143317
+          ],
+          [
+            8.6657649,
+            49.4143226
+          ],
+          [
+            8.665849999999999,
+            49.4144764
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/26006151",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:housenumber" : "162",
+      "addr:postcode" : "69120",
+      "addr:street" : "Im Neuenheimer Feld",
+      "amenity" : "hospital",
+      "building" : "yes",
+      "description" : "Behindertenparkplätze vorhanden",
+      "elevator" : "yes",
+      "name" : "Nierenzentrum Heidelberg",
+      "short_name" : "NZH",
+      "website" : "https://www.nierenzentrum-heidelberg.com",
+      "wheelchair" : "yes",
+      "wheelchair:toilets" : "yes"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.6732136,
+            49.412942
+          ],
+          [
+            18.6732626,
+            49.412942
+          ],
+          [
+            8.6732627,
+            49.412875899999996
+          ],
+          [
+            8.6740322,
+            49.412890399999995
+          ],
+          [
+            8.674117299999999,
+            49.4128907
+          ],
+          [
+            8.6741096,
+            49.4130773
+          ],
+          [
+            8.6738138,
+            49.4130732
+          ],
+          [
+            8.6732497,
+            49.4130633
+          ],
+          [
+            8.6732485,
+            49.4130228
+          ],
+          [
+            8.673199499999999,
+            49.4130228
+          ],
+          [
+            8.673199499999999,
+            49.4130952
+          ],
+          [
+            8.673745499999999,
+            49.4131089
+          ],
+          [
+            8.673746399999999,
+            49.413282599999995
+          ],
+          [
+            8.673590899999999,
+            49.413280699999994
+          ],
+          [
+            8.6732987,
+            49.413278999999996
+          ],
+          [
+            8.6732987,
+            49.4133007
+          ],
+          [
+            8.6733989,
+            49.413303
+          ],
+          [
+            8.673399999999999,
+            49.4133607
+          ],
+          [
+            8.6732941,
+            49.4133607
+          ],
+          [
+            8.673294,
+            49.4133942
+          ],
+          [
+            8.673392999999999,
+            49.413393299999996
+          ],
+          [
+            8.6733817,
+            49.4136768
+          ],
+          [
+            8.672813999999999,
+            49.4136713
+          ],
+          [
+            8.672818,
+            49.4133831
+          ],
+          [
+            8.6728417,
+            49.4133831
+          ],
+          [
+            8.672920699999999,
+            49.413384
+          ],
+          [
+            8.6729209,
+            49.4133248
+          ],
+          [
+            8.672922,
+            49.4132658
+          ],
+          [
+            8.6724705,
+            49.413260699999995
+          ],
+          [
+            8.672475799999999,
+            49.4130842
+          ],
+          [
+            8.6729865,
+            49.413095399999996
+          ],
+          [
+            8.6729971,
+            49.4129335
+          ],
+          [
+            8.6729076,
+            49.4129335
+          ],
+          [
+            8.6729076,
+            49.4128744
+          ],
+          [
+            8.673001,
+            49.412875199999995
+          ],
+          [
+            8.673001,
+            49.4128513
+          ],
+          [
+            8.6727101,
+            49.4128495
+          ],
+          [
+            8.6727101,
+            49.4128341
+          ],
+          [
+            8.6721835,
+            49.4128316
+          ],
+          [
+            8.6721822,
+            49.412701399999996
+          ],
+          [
+            8.6725455,
+            49.4127039
+          ],
+          [
+            8.6725468,
+            49.412678199999995
+          ],
+          [
+            8.6730504,
+            49.412678799999995
+          ],
+          [
+            8.673049299999999,
+            49.412658699999994
+          ],
+          [
+            8.673052499999999,
+            49.4125004
+          ],
+          [
+            8.672814599999999,
+            49.412497599999995
+          ],
+          [
+            8.672564999999999,
+            49.4124931
+          ],
+          [
+            8.672564999999999,
+            49.4124468
+          ],
+          [
+            8.6725315,
+            49.4124468
+          ],
+          [
+            8.6725291,
+            49.412492699999994
+          ],
+          [
+            8.67232,
+            49.4124901
+          ],
+          [
+            8.672329,
+            49.4121971
+          ],
+          [
+            8.672538,
+            49.412199799999996
+          ],
+          [
+            8.6725347,
+            49.4123038
+          ],
+          [
+            8.6725316,
+            49.4124124
+          ],
+          [
+            8.6725674,
+            49.412411999999996
+          ],
+          [
+            8.6725695,
+            49.4123546
+          ],
+          [
+            8.6730336,
+            49.4123601
+          ],
+          [
+            8.6730348,
+            49.412344499999996
+          ],
+          [
+            8.673040499999999,
+            49.4123348
+          ],
+          [
+            8.6730542,
+            49.4123266
+          ],
+          [
+            8.6730703,
+            49.4123169
+          ],
+          [
+            8.6730897,
+            49.4123117
+          ],
+          [
+            8.673109199999999,
+            49.4123095
+          ],
+          [
+            8.6731344,
+            49.4123095
+          ],
+          [
+            8.6731573,
+            49.412314699999996
+          ],
+          [
+            8.6731791,
+            49.4123221
+          ],
+          [
+            8.6731974,
+            49.4123303
+          ],
+          [
+            8.673207699999999,
+            49.4123422
+          ],
+          [
+            8.67321,
+            49.4123527
+          ],
+          [
+            8.6732111,
+            49.4123646
+          ],
+          [
+            8.6736828,
+            49.4123691
+          ],
+          [
+            8.6736843,
+            49.4124361
+          ],
+          [
+            8.673718599999999,
+            49.412435099999996
+          ],
+          [
+            8.6737244,
+            49.4123172
+          ],
+          [
+            8.6737292,
+            49.412214399999996
+          ],
+          [
+            8.6739382,
+            49.4122171
+          ],
+          [
+            8.6739293,
+            49.41251
+          ],
+          [
+            8.6737203,
+            49.412507399999996
+          ],
+          [
+            8.673715699999999,
+            49.4124657
+          ],
+          [
+            8.6736839,
+            49.4124664
+          ],
+          [
+            8.6736852,
+            49.412507
+          ],
+          [
+            8.6734291,
+            49.412502499999995
+          ],
+          [
+            8.6731912,
+            49.4125011
+          ],
+          [
+            8.673189599999999,
+            49.4126504
+          ],
+          [
+            8.6731891,
+            49.4126802
+          ],
+          [
+            8.6736871,
+            49.4126865
+          ],
+          [
+            8.673685299999999,
+            49.4127234
+          ],
+          [
+            8.6740345,
+            49.412728099999995
+          ],
+          [
+            8.6740327,
+            49.412844799999995
+          ],
+          [
+            8.6740322,
+            49.412863699999996
+          ],
+          [
+            8.6732123,
+            49.4128568
+          ],
+          [
+            8.6732136,
+            49.412942
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/27096228",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:housenumber" : "110-112",
+      "addr:postcode" : "69120",
+      "addr:street" : "Im Neuenheimer Feld",
+      "amenity" : "hospital",
+      "building" : "hospital",
+      "elevator" : "yes",
+      "name" : "Chirurgische Klinik",
+      "name:zh" : "海德堡大学医院外科",
+      "wheelchair" : "yes",
+      "wheelchair:toilets" : "yes"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.663360599999999,
+            49.4182657
+          ],
+          [
+            18.6633435,
+            49.4183034
+          ],
+          [
+            8.663304199999999,
+            49.4183034
+          ],
+          [
+            8.6632321,
+            49.4184146
+          ],
+          [
+            8.6633117,
+            49.418423399999995
+          ],
+          [
+            8.6633023,
+            49.418451399999995
+          ],
+          [
+            8.6636048,
+            49.418516
+          ],
+          [
+            8.6636127,
+            49.4185029
+          ],
+          [
+            8.663864199999999,
+            49.418535299999995
+          ],
+          [
+            8.663990799999999,
+            49.418640599999996
+          ],
+          [
+            8.6643398,
+            49.4186042
+          ],
+          [
+            8.6643866,
+            49.418518999999996
+          ],
+          [
+            8.6645667,
+            49.418516999999994
+          ],
+          [
+            8.6645713,
+            49.4181756
+          ],
+          [
+            8.6641662,
+            49.418177799999995
+          ],
+          [
+            8.6641671,
+            49.4182346
+          ],
+          [
+            8.6640445,
+            49.4182365
+          ],
+          [
+            8.6637712,
+            49.418245
+          ],
+          [
+            8.6637712,
+            49.4182547
+          ],
+          [
+            8.663740299999999,
+            49.4182559
+          ],
+          [
+            8.663740299999999,
+            49.4182468
+          ],
+          [
+            8.6636093,
+            49.4182499
+          ],
+          [
+            8.663610199999999,
+            49.4182633
+          ],
+          [
+            8.663360599999999,
+            49.4182657
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/35534679",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:housenumber" : "460",
+      "addr:postcode" : "69120",
+      "addr:street" : "Im Neuenheimer Feld",
+      "amenity" : "hospital",
+      "building" : "hospital",
+      "elevator" : "yes",
+      "name" : "Nationales Centrum für Tumorerkrankungen",
+      "short_name" : "NCT",
+      "wheelchair" : "yes",
+      "wheelchair:toilets" : "yes"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.697051499999999,
+            49.4117933
+          ],
+          [
+            18.6980167,
+            49.411868899999995
+          ],
+          [
+            8.6980141,
+            49.4118831
+          ],
+          [
+            8.6980402,
+            49.4118851
+          ],
+          [
+            8.6980217,
+            49.411985099999995
+          ],
+          [
+            8.6979955,
+            49.411983
+          ],
+          [
+            8.6979914,
+            49.4120054
+          ],
+          [
+            8.6977114,
+            49.4119835
+          ],
+          [
+            8.6977064,
+            49.4120109
+          ],
+          [
+            8.6976358,
+            49.4120054
+          ],
+          [
+            8.6976412,
+            49.411975999999996
+          ],
+          [
+            8.6969972,
+            49.4119256
+          ],
+          [
+            8.697009099999999,
+            49.411861599999995
+          ],
+          [
+            8.6970385,
+            49.4118639
+          ],
+          [
+            8.697051499999999,
+            49.4117933
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/35692885",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:housenumber" : "1-5",
+      "addr:postcode" : "69117",
+      "addr:street" : "Untere Neckarstraße",
+      "amenity" : "hospital",
+      "building" : "hospital",
+      "building:roof" : "hipped",
+      "name" : "Krankenhaus St. Vincentius",
+      "website" : "http://www.vincentius-hd.de",
+      "wheelchair" : "yes"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.6900063,
+            49.4090559
+          ],
+          [
+            18.689966199999999,
+            49.4090491
+          ],
+          [
+            8.6900212,
+            49.4089165
+          ],
+          [
+            8.689938999999999,
+            49.408901199999995
+          ],
+          [
+            8.689961799999999,
+            49.4088329
+          ],
+          [
+            8.6911304,
+            49.4090287
+          ],
+          [
+            8.691109299999999,
+            49.4091333
+          ],
+          [
+            8.6908605,
+            49.4090906
+          ],
+          [
+            8.690719399999999,
+            49.4090643
+          ],
+          [
+            8.690625599999999,
+            49.409049599999996
+          ],
+          [
+            8.6906046,
+            49.4090966
+          ],
+          [
+            8.690568299999999,
+            49.4091125
+          ],
+          [
+            8.690489099999999,
+            49.4090999
+          ],
+          [
+            8.6904542,
+            49.4090725
+          ],
+          [
+            8.6904603,
+            49.4090594
+          ],
+          [
+            8.6902631,
+            49.4090273
+          ],
+          [
+            8.6902438,
+            49.4090795
+          ],
+          [
+            8.690209,
+            49.409073
+          ],
+          [
+            8.6901985,
+            49.4091016
+          ],
+          [
+            8.6900024,
+            49.4090673
+          ],
+          [
+            8.6900063,
+            49.4090559
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/35842577",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:housenumber" : "20",
+      "addr:postcode" : "69115",
+      "addr:street" : "Bergheimer Straße",
+      "amenity" : "hospital",
+      "building" : "hospital",
+      "name" : "Institut für Medizinische Psychologie, Psychologische Alternsforschung, Gerontologie",
+      "note" : "Universitätsklinikum Heidelberg",
+      "phone" : "+49 6221 568151",
+      "website" : "http://www.klinikum.uni-heidelberg.de/ZPM-Startseite.106894.0.html",
+      "wheelchair" : "limited"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.6909949,
+            49.404515599999996
+          ],
+          [
+            18.690972,
+            49.404451099999996
+          ],
+          [
+            8.6909378,
+            49.4044563
+          ],
+          [
+            8.6909251,
+            49.404420599999995
+          ],
+          [
+            8.690961399999999,
+            49.404415099999994
+          ],
+          [
+            8.690944199999999,
+            49.404367
+          ],
+          [
+            8.691094099999999,
+            49.4043444
+          ],
+          [
+            8.6910896,
+            49.404331799999994
+          ],
+          [
+            8.6911366,
+            49.4043247
+          ],
+          [
+            8.691140899999999,
+            49.4043369
+          ],
+          [
+            8.6911709,
+            49.4043324
+          ],
+          [
+            8.6911845,
+            49.4043706
+          ],
+          [
+            8.6912419,
+            49.404362
+          ],
+          [
+            8.6912682,
+            49.404436
+          ],
+          [
+            8.6912111,
+            49.4044446
+          ],
+          [
+            8.6912237,
+            49.4044799
+          ],
+          [
+            8.6911986,
+            49.4044837
+          ],
+          [
+            8.6912045,
+            49.404500299999995
+          ],
+          [
+            8.691155,
+            49.4045078
+          ],
+          [
+            8.6911495,
+            49.404492399999995
+          ],
+          [
+            8.6909949,
+            49.404515599999996
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/49501406",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:housenumber" : "8",
+      "addr:postcode" : "69115",
+      "addr:street" : "Blumenstraße",
+      "amenity" : "hospital",
+      "building" : "hospital",
+      "name" : "Klinik für Kinder- und Jugendpsychiatrie - Tageszentrum für Jugendliche",
+      "phone" : "06221 56-4466",
+      "source" : "Universitätsklnikum Heidelberg",
+      "website" : "https://www.klinikum.uni-heidelberg.de/Klinik-fuer-Kinder-und-Jugendpsychiatrie.2258.0.html"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.6836143,
+            49.423617
+          ],
+          [
+            18.684342,
+            49.423736
+          ],
+          [
+            8.6845226,
+            49.4232684
+          ],
+          [
+            8.683795,
+            49.4231495
+          ],
+          [
+            8.6836143,
+            49.423617
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/91097339",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:country" : "DE",
+      "addr:housenumber" : "33",
+      "addr:postcode" : "69121",
+      "addr:street" : "Zeppelinstraße",
+      "amenity" : "hospital",
+      "building" : "hospital",
+      "building:roof:colour" : "b6ae9f",
+      "contact:phone" : "+49 6221 483-0",
+      "lastcheck" : "2016-03-05",
+      "name" : "Salem",
+      "website" : "http://www.krankenhaus-salem.de",
+      "wheelchair" : "yes"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.6909159,
+            49.4101796
+          ],
+          [
+            18.6910055,
+            49.410188899999994
+          ],
+          [
+            8.6909759,
+            49.4103089
+          ],
+          [
+            8.6910127,
+            49.4103127
+          ],
+          [
+            8.6910103,
+            49.4103225
+          ],
+          [
+            8.6910816,
+            49.410329999999995
+          ],
+          [
+            8.691378799999999,
+            49.410360999999995
+          ],
+          [
+            8.691452,
+            49.4103687
+          ],
+          [
+            8.6915666,
+            49.4103807
+          ],
+          [
+            8.6915551,
+            49.4104271
+          ],
+          [
+            8.6915467,
+            49.410461299999994
+          ],
+          [
+            8.691538399999999,
+            49.4104947
+          ],
+          [
+            8.6914514,
+            49.4104856
+          ],
+          [
+            8.6914432,
+            49.4105189
+          ],
+          [
+            8.691121599999999,
+            49.4104852
+          ],
+          [
+            8.691115,
+            49.410512
+          ],
+          [
+            8.6909707,
+            49.410497
+          ],
+          [
+            8.6909768,
+            49.410472299999995
+          ],
+          [
+            8.690932799999999,
+            49.4104677
+          ],
+          [
+            8.690936899999999,
+            49.410451099999996
+          ],
+          [
+            8.6908511,
+            49.4104421
+          ],
+          [
+            8.6909159,
+            49.4101796
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/96690377",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:country" : "DE",
+      "addr:housenumber" : "5/1",
+      "addr:postcode" : "69115",
+      "addr:street" : "Luisenstraße",
+      "amenity" : "hospital",
+      "building" : "hospital",
+      "name" : "Unfallchirurgie - Atos",
+      "source" : "Maps4BW, LGL, www.lgl-bw.de",
+      "website" : "http://www.atos.de/klinik/",
+      "wheelchair" : "no"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.6862471,
+            49.4083098
+          ],
+          [
+            18.6864253,
+            49.4083392
+          ],
+          [
+            8.6864698,
+            49.4082248
+          ],
+          [
+            8.686291599999999,
+            49.4081954
+          ],
+          [
+            8.6862471,
+            49.4083098
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/140128817",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:country" : "DE",
+      "addr:housenumber" : "54",
+      "addr:postcode" : "69115",
+      "addr:street" : "Bergheimer Straße",
+      "amenity" : "hospital",
+      "building" : "university",
+      "building:roof" : "pitched",
+      "building:roof:colour" : "eecfaf",
+      "name" : "Institut für Psychosomatische Kooperationsforschung und Familientherapie, Personalwohngebäude",
+      "phone" : "06221 56-4701",
+      "source" : "Universitätsklinikum Heidelberg",
+      "website" : "http://www.klinikum.uni-heidelberg.de/ZPM-Startseite.106894.0.html"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.6694204,
+            49.416135
+          ],
+          [
+            18.6694356,
+            49.416135
+          ],
+          [
+            8.6695452,
+            49.416135
+          ],
+          [
+            8.6695441,
+            49.416044899999996
+          ],
+          [
+            8.669543899999999,
+            49.4160125
+          ],
+          [
+            8.669544499999999,
+            49.4159467
+          ],
+          [
+            8.6700382,
+            49.4159467
+          ],
+          [
+            8.6700383,
+            49.4159789
+          ],
+          [
+            8.6700385,
+            49.416041
+          ],
+          [
+            8.6700389,
+            49.4161436
+          ],
+          [
+            8.6701747,
+            49.4161436
+          ],
+          [
+            8.6701746,
+            49.4159787
+          ],
+          [
+            8.6701746,
+            49.415924999999994
+          ],
+          [
+            8.6701824,
+            49.415924999999994
+          ],
+          [
+            8.670249499999999,
+            49.415924999999994
+          ],
+          [
+            8.670249499999999,
+            49.415814499999996
+          ],
+          [
+            8.6701824,
+            49.415814499999996
+          ],
+          [
+            8.6701737,
+            49.415814499999996
+          ],
+          [
+            8.6701737,
+            49.4157649
+          ],
+          [
+            8.6701737,
+            49.415729999999996
+          ],
+          [
+            8.6701126,
+            49.415729999999996
+          ],
+          [
+            8.6699823,
+            49.4157301
+          ],
+          [
+            8.6698677,
+            49.4157301
+          ],
+          [
+            8.6698677,
+            49.4156598
+          ],
+          [
+            8.669725099999999,
+            49.415659899999994
+          ],
+          [
+            8.669725099999999,
+            49.4157271
+          ],
+          [
+            8.6694839,
+            49.4157272
+          ],
+          [
+            8.669414999999999,
+            49.4157272
+          ],
+          [
+            8.669414999999999,
+            49.4158164
+          ],
+          [
+            8.669393699999999,
+            49.4158164
+          ],
+          [
+            8.6693495,
+            49.4158164
+          ],
+          [
+            8.6693496,
+            49.415921499999996
+          ],
+          [
+            8.669395,
+            49.415921499999996
+          ],
+          [
+            8.6694193,
+            49.4159222
+          ],
+          [
+            8.669419999999999,
+            49.4159874
+          ],
+          [
+            8.6694204,
+            49.4160135
+          ],
+          [
+            8.6694204,
+            49.416135
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/141216666",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:housenumber" : "324",
+      "addr:postcode" : "69120",
+      "addr:street" : "Im Neuenheimer Feld",
+      "amenity" : "hospital",
+      "building" : "yes",
+      "building:obm" : "80",
+      "description" : "Behindertengerecht",
+      "elevator" : "yes",
+      "name" : "Tropenmedizinische Ambulanz / Institut für Public Health / Departement für Infektologie",
+      "phone" : "06221 56-22999",
+      "source" : "Universitätsklinikum Heidelberg",
+      "website" : "http://www.klinikum.uni-heidelberg.de/Sektion-Klinische-Tropenmedizin.5489.0.html",
+      "wheelchair" : "yes",
+      "wheelchair:toilets" : "yes"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.6840044,
+            49.4094623
+          ],
+          [
+            18.6845529,
+            49.4095568
+          ],
+          [
+            8.6847014,
+            49.409191899999996
+          ],
+          [
+            8.684153,
+            49.4090973
+          ],
+          [
+            8.6840044,
+            49.4094623
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/209189456",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:country" : "DE",
+      "addr:housenumber" : "6",
+      "addr:postcode" : "69115",
+      "addr:street" : "Voßstraße",
+      "amenity" : "hospital",
+      "building" : "yes",
+      "name" : "Ethianum"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.6619707,
+            49.4170221
+          ],
+          [
+            18.6623779,
+            49.4171209
+          ],
+          [
+            8.6622997,
+            49.417257299999996
+          ],
+          [
+            8.6624416,
+            49.4172917
+          ],
+          [
+            8.6625248,
+            49.417146699999996
+          ],
+          [
+            8.6626151,
+            49.4171686
+          ],
+          [
+            8.6625316,
+            49.4173143
+          ],
+          [
+            8.6631609,
+            49.417466999999995
+          ],
+          [
+            8.6636761,
+            49.416568299999994
+          ],
+          [
+            8.6624073,
+            49.4162605
+          ],
+          [
+            8.6619707,
+            49.4170221
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/225545052",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:housenumber" : "440",
+      "addr:postcode" : "69120",
+      "addr:street" : "Im Neuenheimer Feld",
+      "amenity" : "hospital",
+      "building" : "hospital",
+      "name" : "Frauen- und Hautklinik",
+      "phone" : "+49 6221 568589",
+      "source" : "Universitätsklinkum Heidelberg",
+      "website" : "http://www.klinikum.uni-heidelberg.de/Hautklinik.113977.0.html",
+      "wheelchair" : "yes"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.6622997,
+            49.417257299999996
+          ],
+          [
+            18.6623779,
+            49.4171209
+          ],
+          [
+            8.6619707,
+            49.4170221
+          ],
+          [
+            8.6624073,
+            49.4162605
+          ],
+          [
+            8.6636761,
+            49.416568299999994
+          ],
+          [
+            8.6631609,
+            49.417466999999995
+          ],
+          [
+            8.6625316,
+            49.4173143
+          ],
+          [
+            8.6626151,
+            49.4171686
+          ],
+          [
+            8.6625248,
+            49.417146699999996
+          ],
+          [
+            8.6624416,
+            49.4172917
+          ],
+          [
+            8.6622997,
+            49.417257299999996
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/225545436",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:housenumber" : "440",
+      "addr:postcode" : "69120",
+      "addr:street" : "Im Neuenheimer Feld",
+      "amenity" : "hospital",
+      "building" : "yes",
+      "name" : "Frauenklinik und Hautklinik",
+      "phone" : "06221 56-5087",
+      "source" : "Universitätsklinikum Heidelberg",
+      "website" : "http://www.klinikum.uni-heidelberg.de/Institut-fuer-Humangenetik.5035.0.html",
+      "wheelchair" : "yes"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.6622997,
+            49.417257299999996
+          ],
+          [
+            18.6623779,
+            49.4171209
+          ],
+          [
+            8.6619707,
+            49.4170221
+          ],
+          [
+            8.6624073,
+            49.4162605
+          ],
+          [
+            8.6636761,
+            49.416568299999994
+          ],
+          [
+            8.6631609,
+            49.417466999999995
+          ],
+          [
+            8.6625316,
+            49.4173143
+          ],
+          [
+            8.6626151,
+            49.4171686
+          ],
+          [
+            8.6625248,
+            49.417146699999996
+          ],
+          [
+            8.6624416,
+            49.4172917
+          ],
+          [
+            8.6622997,
+            49.417257299999996
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/225550326",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:housenumber" : "440",
+      "addr:postcode" : "69120",
+      "addr:street" : "Im Neuenheimer Feld",
+      "amenity" : "hospital",
+      "building" : "yes",
+      "emergency" : "yes",
+      "name" : "Frauenklinik",
+      "phone" : "06221 56-7856",
+      "source" : "Universitätsklinikum Heidelberg",
+      "website" : "http://www.klinikum.uni-heidelberg.de/Universitaets-Frauenklinik.331.0.html",
+      "wheelchair" : "yes"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.6887166,
+            49.4032099
+          ],
+          [
+            18.6893227,
+            49.4031593
+          ],
+          [
+            8.6892967,
+            49.4030445
+          ],
+          [
+            8.689813599999999,
+            49.4030074
+          ],
+          [
+            8.6894695,
+            49.4019286
+          ],
+          [
+            8.6884671,
+            49.4019689
+          ],
+          [
+            8.6887166,
+            49.4032099
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/259039249",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "amenity" : "hospital",
+      "name" : "St. Josefskrankenhaus",
+      "website" : "http://www.st.josefskrankenhaus.de",
+      "wheelchair" : "yes"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.6654999,
+            49.4169245
+          ],
+          [
+            18.666137599999999,
+            49.416925199999994
+          ],
+          [
+            8.6661377,
+            49.4168926
+          ],
+          [
+            8.666343099999999,
+            49.4168928
+          ],
+          [
+            8.6663432,
+            49.416844999999995
+          ],
+          [
+            8.6665032,
+            49.4168455
+          ],
+          [
+            8.6665032,
+            49.4168622
+          ],
+          [
+            8.666673099999999,
+            49.4168624
+          ],
+          [
+            8.667408499999999,
+            49.416863299999996
+          ],
+          [
+            8.6674089,
+            49.416700299999995
+          ],
+          [
+            8.6674654,
+            49.416700299999995
+          ],
+          [
+            8.6674655,
+            49.4166564
+          ],
+          [
+            8.6674062,
+            49.4166564
+          ],
+          [
+            8.667406399999999,
+            49.4165911
+          ],
+          [
+            8.6674074,
+            49.416224199999995
+          ],
+          [
+            8.6674604,
+            49.416224199999995
+          ],
+          [
+            8.667460499999999,
+            49.4161764
+          ],
+          [
+            8.667402599999999,
+            49.4161764
+          ],
+          [
+            8.6674037,
+            49.4157582
+          ],
+          [
+            8.667455499999999,
+            49.4157583
+          ],
+          [
+            8.6674557,
+            49.4157018
+          ],
+          [
+            8.667400599999999,
+            49.4157017
+          ],
+          [
+            8.6674011,
+            49.4155545
+          ],
+          [
+            8.666572799999999,
+            49.415553499999994
+          ],
+          [
+            8.6665215,
+            49.4155533
+          ],
+          [
+            8.6663853,
+            49.4155531
+          ],
+          [
+            8.6660831,
+            49.4155528
+          ],
+          [
+            8.6660826,
+            49.4157009
+          ],
+          [
+            8.665820199999999,
+            49.4157006
+          ],
+          [
+            8.66582,
+            49.4157687
+          ],
+          [
+            8.666241099999999,
+            49.415768799999995
+          ],
+          [
+            8.6661687,
+            49.4158956
+          ],
+          [
+            8.6654903,
+            49.4158948
+          ],
+          [
+            8.6654897,
+            49.4161204
+          ],
+          [
+            8.665976299999999,
+            49.416121
+          ],
+          [
+            8.6659747,
+            49.416709499999996
+          ],
+          [
+            8.6654977,
+            49.416708899999996
+          ],
+          [
+            8.6654974,
+            49.4168375
+          ],
+          [
+            8.665441099999999,
+            49.4168374
+          ],
+          [
+            8.665441,
+            49.4168856
+          ],
+          [
+            8.6655,
+            49.416885699999995
+          ],
+          [
+            8.6654999,
+            49.4169245
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/342036341",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:housenumber" : "410",
+      "addr:postcode" : "69120",
+      "addr:street" : "Im Neuenheimer Feld",
+      "alt_name" : "Ludolf-Krehl-Klinik",
+      "amenity" : "hospital",
+      "description" : "behindertengerecht",
+      "elevator" : "yes",
+      "name" : "Medizinische Klinik",
+      "wheelchair" : "yes",
+      "wheelchair:toilets" : "yes"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Polygon",
+      "coordinates" : [
+        [
+          [
+            8.682024,
+            49.4218882
+          ],
+          [
+            18.6820369,
+            49.4218239
+          ],
+          [
+            8.6820913,
+            49.421833199999995
+          ],
+          [
+            8.6823721,
+            49.4209487
+          ],
+          [
+            8.6825025,
+            49.420741799999995
+          ],
+          [
+            8.6821171,
+            49.420657899999995
+          ],
+          [
+            8.6809351,
+            49.420481699999996
+          ],
+          [
+            8.680809,
+            49.421067099999995
+          ],
+          [
+            8.680788999999999,
+            49.4216179
+          ],
+          [
+            8.6808921,
+            49.4216309
+          ],
+          [
+            8.680873499999999,
+            49.421705499999995
+          ],
+          [
+            8.682024,
+            49.4218882
+          ]
+        ]
+      ]
+    },
+    "properties" : {
+      "@osmId" : "way/342045912",
+	  "@creation":false,
+	  "@geometry_change":true,
+      "@snapshotTimestamp" : "2017-01-01T00:00:00Z",
+      "addr:city" : "Heidelberg",
+      "addr:country" : "DE",
+      "addr:housenumber" : "5-7",
+      "addr:postcode" : "69121",
+      "addr:street" : "Furtwänglerstraße",
+      "amenity" : "hospital",
+      "contact:phone" : "+49 6221 4880",
+      "emergency" : "no",
+      "name" : "Sankt Elisabeth",
+      "website" : "http://www.sankt-elisabeth.de",
+      "wheelchair" : "limited"
+    }
+  }]
+}
