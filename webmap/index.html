@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SM2T Webmap</title>
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+<link href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
+<style>
+body { margin: 0; padding: 0; }
+#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+</style>
+</head>
+<body>
+<div id="map"></div>
+<script>
+	mapboxgl.accessToken = 'pk.eyJ1IjoiemlhLW0iLCJhIjoiQjM5aVpfTSJ9.s_U7YxQCK-Zq5SaJemH5bA';
+    const map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/light-v10',
+        zoom: 5,
+        center: [10.592944, 51.259683]
+    });
+
+    map.on('load', () => {
+        // Add a new vector tile source with ID 'mapillary'.
+        map.addSource('mapillary', {
+            'type': 'vector',
+            'tiles': [
+              //'http://localhost:8080/api/v0.1/mbtile?z=12&x=20&y=100'
+                'https://sm2t.heigit.org/api/v0.1/mbtile?z={z}&x={x}&y={y}'
+            ],
+            //'tiles': [
+                    // 'https://d25uarhxywzl1j.cloudfront.net/v0.1/{z}/{x}/{y}.mvt'  
+                    // 'http://localhost:3004/{z}/{x}/{y}.pbf'
+                //    serverHost + '/' + config.server.route.insartile + '?z={z}&x={x}&y={y}&yyyymm=' + losdate + '&mode=' + losmode + '&tk=' + lstk
+            //    ],
+            //'tiles': [
+              //  'https://tiles.mapillary.com/maps/vtp/mly1_public/2/{z}/{x}/{y}?access_token=MLY|4142433049200173|72206abe5035850d6743b23a49c41333'
+            //],
+            'minzoom': 0,
+            'maxzoom': 13
+        });
+        map.addLayer(
+            {
+                'id': 'mapillary', // Layer ID
+                'type': 'fill',
+                'source': 'mapillary', // ID of the tile source created above
+                // Source has several layers. We visualize the one with name 'sequence'.
+                'source-layer': 'sm2ttraffic',
+                'layout': {
+                    'visibility': 'visible'
+                },
+
+                'paint': {
+                    // 'fill-antialias': false,
+                    'fill-opacity': 1,
+                    'fill-color': [
+                        /**
+                         * Found help to write the expression from
+                         * https://stackoverflow.com/questions/49601663/mapbox-case-expression
+                         * https://bl.ocks.org/anandthakker/raw/92449fb29285981d266b373c715bdc2b/#6
+                         * https://bl.ocks.org/anandthakker/raw/92449fb29285981d266b373c715bdc2b/#8
+                         * https://docs.mapbox.com/mapbox-gl-js/style-spec/expressions/
+                         * 
+                         * Coloring pattern is being followed using ranges defined here
+                         * https://github.com/zemhar/zh-internal/issues/1
+                         */
+                        "rgb",
+                        /**
+                         * Red
+                         * The following expression does the following operation in order
+                         * 1. Get los value
+                         * 2. If los belongs [1.50, infinite), assign 204
+                         * 3. If los belongs [0.00, 1.50), assign (204/1.50)*los
+                         * 4. If los belongs (-infinite, 0.00), assign 0
+                         */
+                         255,
+                        /**
+                         * Green
+                         * The following expression does the following operation in order
+                         * 1. Get los value
+                         * 2. If los belongs (-infinite, -2.50], assign 0
+                         * 3. If los belongs (-2.50, -1.50], assign (2.50+los)*204
+                         * 4. If los belongs (-1.50, 1.50], assign 204
+                         * 5. If los belongs (1.50, 2.50], assign (2.50-los)*204
+                         * 6. If los belongs (2.50, infinite), assign 0
+                         */
+                         [ 
+                         "let", "prob", ["get", "high-traffic-congestion-prob"],
+                            [
+                                "case",
+                                [">=", ["var", "prob"], 1.0], 255,
+                                ["all", ["<", ["var", "prob"], 1.0], [">=", ["var", "prob"], 0.0]], ["*", (255/1.0), ["var", "prob"]],
+                                0
+                            ]                          
+                        ],
+                        /**
+                         * Blue
+                         * The following expression does the following operation in order
+                         * 1. Get los value
+                         * 2. If los belongs (-infinite, -1.50], assign 204
+                         * 3. If los belongs (-1.50, 0.00], assign -(204/1.50)*los
+                         * 4. If los belongs (0.00, infinite), assign 0
+                         */
+                         [ 
+                         "let", "prob", ["get", "high-traffic-congestion-prob"],
+                            [
+                                "case",
+                                [">=", ["var", "prob"], 1.0], 255,
+                                ["all", ["<", ["var", "prob"], 1.0], [">=", ["var", "prob"], 0.0]], ["*", (255/1.0), ["var", "prob"]],
+                                0
+                            ]                          
+                        ]
+                    ]
+                }
+            }
+            
+        );
+    });
+
+    map.addControl(new mapboxgl.NavigationControl());
+</script>
+
+</body>
+</html>

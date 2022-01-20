@@ -1,0 +1,9 @@
+{
+    "server": {
+        "port": 1234
+    },
+    "mongodb": {
+        "host": "<IP_Address>", 
+        "port": 1234
+    }
+}

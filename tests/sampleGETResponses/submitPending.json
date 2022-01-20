@@ -1,0 +1,8 @@
+{
+    "status": 200,
+    "send": {
+        "status": "queued",
+        "percentDone": 0,
+        "remainingTimeApproxInMins": 60
+    }
+}

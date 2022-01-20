@@ -1,0 +1,139 @@
+{
+    "server": {
+        "apiVersion": "v0.1",
+        "port": 8080, 
+        "cronGeoDataFetchTimer": "*/50 * * * *",
+        "cronWorkersManager": "*/1 * * * * *",
+        "cronQueuedProcess": "*/59 * * * * *",
+        "logDir": "logger/app.log",
+        "tmpDir": "tmp",
+        "refDir": "ref",
+        "urlCacher": {
+            "root": "url_cacher",
+            "requestCacher": "request_url",
+            "exportCacher": "export_result"
+        },
+        "tmpDirDwn": "dwn_geodata",
+        "tmpDirProcess": "process_core",
+        "memCacheSubmitTimeoutSec": 1,
+        "memCacheRawTimeoutSec": 3600,
+        "memCacheVectileTimeoutSec": 3600,
+        "memCacheInfoTimeoutSec": 600,
+        "memCacheMbtileTimeoutSec": 3600,
+        "flatCacheDownloadTimeoutHr": 24,
+        "batchSize": 10000,
+        "workersQueueMaxLimit": 5,
+        "workersQueueMaxTimeHr": 24,
+        "approxProcessingTimeMinPerMbUnionFilesize": 0.07,
+        "pixelListMaxLengthInMillion": 10,
+        "memory": {
+            "freeMinMemoryLoadLimit4NewProcessInGb": 1.0,
+            "allowedMemoryLoadPerProcessInGb": 0.5
+        },
+        "mbTile": {
+            "mbTileHub": "mbtiles",
+            "mbTileMaxZoom": 16
+        }
+    },
+    "mongodb": {
+        "platform": "mongoDbDocker",
+        "driver": "mongodb",
+        "mongoDbAtlas": {
+            "username": "user",
+            "password": "pass",
+            "clusterConn": "@cluster0.unava.mongodb.net/test?retryWrites=true&w=majority"
+        },
+        "mongoDbDocker": {
+            "host": "localhost",
+            "port": 27017
+        },
+        "connectionPool": 10,
+        "socketTimeoutMS": 360000000,
+        "connectTimeoutMS": 360000000,
+        "reconnectIntervalMS": 10000,
+        "reconnectTries": 1000,
+        "logDb": "log_db",
+        "refDb": "reference_db",
+        "dataDb": "data_db",
+        "tmpDb": "tmp_db",
+        "queryColl": "query_coll",
+        "vectileColl": "vectile_coll",
+        "osmColl": "osm_coll",
+        "bigfeatColl": "bigfeat_coll",
+        "exportCacheGridFS": "export_cache_gridfs",
+        "fialedUrlColl": "failedurl_coll",
+        "apiTokenColl": "api_token_coll",
+        "errorColl": "error_coll",
+        "fetchColl": "fetch_coll",
+        "themeColl": "framework_harmoniser_coll",
+        "regionColl": "regions_list_coll",
+        "tilesColl": "tiles_coll",
+        "fwHarmoniserColl": "framework_harmoniser_coll"
+    },
+    "aws": {
+        "AWS_ACCESS_KEY_ID": "awsaccesskeyid",
+        "AWS_SECRET_ACCESS_KEY": "awssecretaccesskey",
+        "s3Bucket": "globalexposure",
+        "bucketOtherUrl": ".s3.eu-central-1.amazonaws.com",
+        "dataExportFolder": "data-export",
+        "vectorTiles": "vector-tiles",
+        "testDir": "rubbish"
+    },
+    "osm": {
+        "ohsome": {            
+            "endpoint": "https://api.ohsome.org/v1",
+            "_endpoint": "https://api-internal.ohsome.org/v1",
+            "contributions": "/contributions/latest/geometry",
+            "element": "/elements/geometry",
+            "metadata": "/metadata",
+            "waitBeforeNewDataInSec": 86400,
+            "header": "accept: application/json",
+            "copyright": "https://ohsome.org/copyrights",
+            "watermark": "© OpenStreetMap contributors",
+            "apiVersion": "0.9",
+            "connectionTimeoutMilliSec": 600000,
+            "osmStartDate": "2007-10-08T00:00:01Z",
+            "downloadTileBboxInDeg": [180.0, 180.0],
+            "downloadTileZoomLevel": 0,
+            "_heidelbergbbox_downloadCoverageInDeg": [8,49,9,50],  
+            "downloadCoverageInDeg": [-32.0, 34.0, 69.0, 82.0],  
+            "_globebbox_downloadCoverageInDeg": [-180.0, -90.0, 180.0, 90.0],  
+            "apiMaxBatchReq": 1,
+            "tileExplodeSizeDeg": 5
+        }
+    },
+    "defaults": {
+        "allGeoFormat": ["shapefile", "kml", "geojson", "geotif", "geopackage"],
+        "allStatusFilter": ["all", "complete", "pending"],
+        "allInfoItems": ["fullHarmoniserList", "queryColl", "vectileThemes", "pendingQueryColl"],
+        "params": {
+            "rawData": false,
+            "rawCentroid": false,
+            "dataQuality": false,
+            "dataSource": false,
+            "dataFormat": ["geojson"]
+        },
+        "dataTime": "latest",
+        "outputFormat": "geojson",
+        "dataSource": "osm",
+        "dataProperties": "tags,metadata",
+        "dataShowMetadata": "false",
+        "dataTypes": "",
+        "xPixel3857": 100000,
+        "yPixel3857": 100000,
+        "dataIntermediateCrs": 3857,
+        "dataFinalCrs": 4326,
+        "absoluteXmin3857": -20000000, 
+        "absoluteXmax3857": 20000000,
+        "absoluteYmin3857": -20000000,
+        "absoluteYmax3857": 20000000,
+        "dataDumpRaw": "false",
+        "rawDumpSegmentedSizeMB": 100,
+        "exportSegmentedSizeMB": 0.1,
+        "xMinPixelMeter": 30,
+        "yMinPixelMeter": 30,
+        "tileBufferXdegree": 0.1,
+        "tileBufferYdegree": 0.1,
+        "errorFlag": -9999
+    }
+}

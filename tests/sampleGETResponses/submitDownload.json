@@ -1,0 +1,8 @@
+{
+    "status": 200,
+    "send": {
+        "status": "queued",
+        "fileSizeInMbs": 50,
+        "downloadLink": "https://globalexposure.s3.eu-central-1.amazonaws.com/rubbish/sampleGET/submit/airports-1000m_tileid-1002.geojson"
+    }
+}

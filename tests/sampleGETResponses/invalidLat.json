@@ -1,0 +1,18 @@
+{
+    "status": 400,
+    "statusText": "Bad params :( Checkout https://gitlab.com/jrc_osm/edh_server/issues/12 documentation to create valid query.",
+    "errors": [
+        {
+            "field": [
+                "lat"
+            ],
+            "location": "query",
+            "messages": [
+                "\"lat\" must be less than or equal to 90"
+            ],
+            "types": [
+                "number.max"
+            ]
+        }
+    ]
+}

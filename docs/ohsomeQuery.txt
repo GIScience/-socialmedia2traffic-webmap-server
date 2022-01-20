@@ -1,0 +1,53 @@
+POSSIBLE QUERY -
+
+https://api.ohsome.org/v1/contributions/latest/geometry?
+bboxes=8.625,49.3711,8.7334,49.4397&
+properties=tags,metadata&
+showMetadata=true&
+time=2017-06-29T03:00:00Z,2020-06-29T03:00:00Z
+filter=amenity=hospital and (geometry:point or
+geometry:polygon) or highway=* and geometry:line
+
+
+POSSIBLE RESPONSE - 
+
+{
+  "attribution" : {
+    "url" : "https://ohsome.org/copyrights",
+    "text" : "© OpenStreetMap contributors"
+  },
+  "apiVersion" : "1.0.0",
+  "type" : "FeatureCollection",
+  "features" : [{
+    "type" : "Feature",
+    "geometry" : <geom>,
+    "properties" : {
+		"@osmId" : "node/4546803165",
+		"@contributionType": "insert",
+		"@contributionTime": "2018-06-29T03:00:00Z"
+	}
+  },{
+    "type" : "Feature",
+    "geometry" : <geom>,
+    "properties" : {
+		"@osmId" : "node/4546803166",
+		"@contributionType": "update",
+		"@contributionTime": "2018-06-29T03:00:00Z"
+	}
+  },{
+    "type" : "Feature",
+    "geometry" : null,
+    "properties" : {
+		"@osmId" : "node/4546803165",
+		"@contributionType": "delete",
+		"@contributionTime": "2018-06-29T03:00:00Z"
+	}
+  }]
+}
+
+
+
+
+
+
+
